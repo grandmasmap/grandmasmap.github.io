@@ -1,0 +1,60 @@
+{
+ "displayFieldName": "Name",
+ "fieldAliases": {
+  "Name": "Name"
+ },
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "fields": [
+  {
+   "name": "Name",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "length": 250
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "Name": "Finish Area"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -10251793.0506,
+       5906212.0306999981
+      ],
+      [
+       -10251926.815400001,
+       5906501.0582000017
+      ],
+      [
+       -10251807.3826,
+       5906557.1916999966
+      ],
+      [
+       -10251756.0264,
+       5906435.3702000007
+      ],
+      [
+       -10251673.617799999,
+       5906471.200000003
+      ],
+      [
+       -10251597.1807,
+       5906302.7996999994
+      ],
+      [
+       -10251793.0506,
+       5906212.0306999981
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

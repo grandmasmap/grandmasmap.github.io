@@ -1,0 +1,74 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "FID",
+    "Name" : "Name",
+    "Shape_Length" : "Shape_Length"
+  },
+  "geometryType" : "esriGeometryPolyline",
+  "spatialReference" : {
+    "wkid" : 102100,
+    "latestWkid" : 3857
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 254
+    },
+    {
+      "name" : "Shape_Length",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Shape_Length"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1,
+        "Name" : "Grandma's Marathon Course",
+        "Shape_Length" : 1892.7087523335892
+      },
+      "geometry" : {
+        "paths" : [
+          [
+            [
+              -10251791.7862,
+              5907956.1589000002
+            ],
+            [
+              -10251921.3233,
+              5907803.7795000002
+            ],
+            [
+              -10252832.619999999,
+              5906814.7766999975
+            ],
+            [
+              -10252993.6919,
+              5906610.4294999987
+            ],
+            [
+              -10252997.4002,
+              5906598.2452000007
+            ],
+            [
+              -10252988.394400001,
+              5906583.4121999964
+            ],
+            [
+              -10252949.3508,
+              5906541.0807000026
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

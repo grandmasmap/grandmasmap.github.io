@@ -1,0 +1,57 @@
+{
+ "displayFieldName": "Name",
+ "fieldAliases": {
+  "Name": "Booth"
+ },
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "fields": [
+  {
+   "name": "Name",
+   "type": "esriFieldTypeString",
+   "length": 250
+  },
+   {
+   "name": "Sym",
+   "type": "esriFieldTypeString",
+   "length": 20
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "Name": "Chip Scan",
+	"Sym": "Green2"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -10252364.7686,
+       5906304.3884000033
+      ],
+      [
+       -10252358.390000001,
+       5906311.0370000005
+      ],
+      [
+       -10252331.825200001,
+       5906285.1206
+      ],
+      [
+       -10252338.6337,
+       5906277.6618999988
+      ],
+      [
+       -10252364.7686,
+       5906304.3884000033
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
