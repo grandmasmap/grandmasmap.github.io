@@ -104,5 +104,5 @@ html, body, #map {
 	
 }
 #MyIcon:before{
-	content:url(_assets/images/me.png);
+	content:url(assets/images/me.png);
 }

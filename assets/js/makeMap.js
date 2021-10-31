@@ -305,7 +305,7 @@ function showPosition(position){
 			}
 			
 			gpsIconFile += baseMapColor+".png";
-			GPSsymbol = new esri.symbol.PictureMarkerSymbol("_assets/images/"+gpsIconFile, 24, 24);
+			GPSsymbol = new esri.symbol.PictureMarkerSymbol("assets/images/"+gpsIconFile, 24, 24);
 			
 			if ((position.coords.heading !== null) && (!isNaN(position.coords.heading))){
 				GPSsymbol.setAngle(position.coords.heading - 90);

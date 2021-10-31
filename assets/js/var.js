@@ -30,7 +30,7 @@ var smsTest = {"type":"simple",
 						};
 var pmsTest = {"type": "simple",
 				"symbol": {"type": "esriPMS",
-"url":"_assets/images/gMM.png", 
+"url":"assets/images/gMM.png", 
 				"height": 26, 
 				"width": 26
 }};
@@ -68,13 +68,13 @@ var infoRenderer =
 	"uniqueValueInfos": [
 		{"value": "info",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/info.png", 
+					"url":"assets/images/info.png", 
 					"height": 13, 
 					"width": 13}
 		},
 	   {"value": "atm",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/atm.png", 
+					"url":"assets/images/atm.png", 
 					"height": 12, 
 					"width": 14}
 		}							
@@ -91,7 +91,7 @@ layerList.push(
 	{"id":"Expo-Info",
 		"minScale": 20000,
 		"toggleOnList": ["expo"],
-		"layerInfo":{"type":"csv","file":"_assets/data/info.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/info.csv"},
 		"rendererInfo":{
 			"type":"unique",
 			"uvr": infoRenderer
@@ -102,7 +102,7 @@ layerList.push(
 var lodgingRenderer = 
 	{"type": "simple",
 	"symbol": {"type": "esriPMS",
-	"url":"_assets/images/lodging3.png", 
+	"url":"assets/images/lodging3.png", 
 	"height": 10, 
 	"width": 10
 }};
@@ -112,7 +112,7 @@ layerList.push(
 	{"id":"Lodging",
 		"minScale": 2311163,
 		"toggleOnList": ["lodging"],
-		"layerInfo":{"type":"csv","file":"_assets/data/lodging.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/lodging.csv"},
 		"rendererInfo":{
 			"type":"simple",
 			"svr": lodgingRenderer
@@ -134,7 +134,7 @@ layerList.push(
 	{"id":"EXPO-DECC",
 		"minScale": 72224,
 		"toggleOnList": ["expo"],
-		"layerInfo":{"type":"json","file":"_assets/data/expo-decc.json"},
+		"layerInfo":{"type":"json","file":"assets/data/expo-decc.json"},
 		"graphicSymbol":deccSymbol
 	});
 
@@ -185,7 +185,7 @@ layerList.push(
 	{"id":"EXPO-Vendors",
 		"minScale": 9028,
 		"toggleOnList": ["expo"],
-		"layerInfo":{"type":"json","file":"_assets/data/expo-vendors.json"},
+		"layerInfo":{"type":"json","file":"assets/data/expo-vendors.json"},
 		"graphicSymbol":vendor_grey,
 
 		"createLabels": true,
@@ -196,7 +196,7 @@ layerList.push(
 	{"id":"EXPO-Extras",
 		"minScale": 9028,
 		"toggleOnList": ["expo"],
-		"layerInfo":{"type":"json","file":"_assets/data/expo-extras.json"},
+		"layerInfo":{"type":"json","file":"assets/data/expo-extras.json"},
 		"graphicSymbol":vendor_green1,
 
 		"createLabels": true,
@@ -207,7 +207,7 @@ layerList.push(
 	{"id":"EXPO-ChipScan",
 		"minScale": 9028,
 		"toggleOnList": ["expo"],
-		"layerInfo":{"type":"json","file":"_assets/data/expo-chipscan.json"},
+		"layerInfo":{"type":"json","file":"assets/data/expo-chipscan.json"},
 		"graphicSymbol":vendor_green2,
 
 		"createLabels": true,
@@ -229,7 +229,7 @@ layerList.push(
 		"minScale": 144447.7,
 		"maxScale": 4512,
 		"toggleOnList": ["finish"],
-		"layerInfo":{"type":"json","file":"_assets/data/finish_background.json"},
+		"layerInfo":{"type":"json","file":"assets/data/finish_background.json"},
 		"graphicSymbol":finish_area,
 		"createLabels": true,
 	    "labelColor": [0,0,0,255]
@@ -250,7 +250,7 @@ layerList.push(
 	{"id":"Finish-Details",
 		"minScale": 2257,
 		"toggleOnList": ["finish"],
-		"layerInfo":{"type":"json","file":"_assets/data/finish_detail.json"},
+		"layerInfo":{"type":"json","file":"assets/data/finish_detail.json"},
 		"graphicSymbol":finish_details,
 		"createLabels": true,
 	    "labelColor": [0,0,0,255]
@@ -258,7 +258,7 @@ layerList.push(
 //Buses
 var busSymbol = {"type": "simple",
 				"symbol": {"type": "esriPMS",
-				"url":"_assets/images/bus.png", 
+				"url":"assets/images/bus.png", 
 				"height": 10, 
 				"width": 10
 }};
@@ -267,7 +267,7 @@ layerList.push(
 	{"id":"Buses",
 		"minScale": 1155581,
 		"toggleOnList": ["bus"],
-		"layerInfo":{"type":"csv","file":"_assets/data/return_bus.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/return_bus.csv"},
 		"rendererInfo":{
 			"type":"simple",
 			"svr": busSymbol
@@ -298,7 +298,7 @@ var iCourseSymbol = {
 layerList.push(
 	{"id":"Irvin-Course",
 		"toggleOnList": ["irvin"],
-		"layerInfo":{"type":"json","file":"_assets/data/irvin_Course.json"},
+		"layerInfo":{"type":"json","file":"assets/data/irvin_Course.json"},
 		"graphicSymbol":iCourseSymbol
 	});
 
@@ -308,13 +308,13 @@ var iMMRenderer =
 	"uniqueValueInfos": [
 		{"value": "MM",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/iMM.png", 
+					"url":"assets/images/iMM.png", 
 					"height": 21, 
 					"width": 14}
 		},
 		{"value": "F",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/iFin.png", 
+					"url":"assets/images/iFin.png", 
 					"height": 21, 
 					"width": 142}
 		}
@@ -325,7 +325,7 @@ layerList.push(
 	{"id":"Irvin-MileMarkers",
 		"minScale": 577700,
 		"toggleOnList": ["irvin"],
-		"layerInfo":{"type":"csv","file":"_assets/data/irvin_mileMarkers.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/irvin_mileMarkers.csv"},
 		"rendererInfo":{
 			"type":"unique",
 			"uvr": iMMRenderer
@@ -337,14 +337,14 @@ layerList.push(
 layerList.push(
 	{"id":"Bjorklund-Course",
 		"toggleOnList": ["bjorklund"],
-		"layerInfo":{"type":"json","file":"_assets/data/bjorklund_Course2018.json"},
+		"layerInfo":{"type":"json","file":"assets/data/bjorklund_Course2018.json"},
 		"graphicSymbol":bCourseSymbol
 	});
 
 layerList.push(
 	{"id":"Bjorklund-CourseTrad",
 		"toggleOnList": ["bjorklund"],
-		"layerInfo":{"type":"json","file":"_assets/data/traditionalSection_2018.json"},
+		"layerInfo":{"type":"json","file":"assets/data/traditionalSection_2018.json"},
 		"graphicSymbol":bCourseSymbolTrad
 	});
 	
@@ -354,31 +354,31 @@ var bMMRenderer =
 	"uniqueValueInfos": [
 		{"value": "MM",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/bMM.png", 
+					"url":"assets/images/bMM.png", 
 					"height": 21, 
 					"width": 14}
 		},
 	   {"value": "MMFA",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/bMMFA.png", 
+					"url":"assets/images/bMMFA.png", 
 					"height": 35, 
 					"width": 14}
 		},
 		{"value": "MMMT",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/bMMMT.png", 
+					"url":"assets/images/bMMMT.png", 
 					"height": 35, 
 					"width": 14}
 		},
 		{"value": "MMMTo",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/bMMMTo.png", 
+					"url":"assets/images/bMMMTo.png", 
 					"height": 38, 
 					"width": 14}
 		},
 		{"value": "F",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/bMM.png", 
+					"url":"assets/images/bMM.png", 
 					"height": 27, 
 					"width": 18}
 		}
@@ -389,7 +389,7 @@ layerList.push(
 	{"id":"Bjorklund-MileMarkers",
 		"minScale": 577700,
 		"toggleOnList": ["bjorklund"],
-		"layerInfo":{"type":"csv","file":"_assets/data/bjorklund_mileMarkers_2018.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/bjorklund_mileMarkers_2018.csv"},
 		"rendererInfo":{
 			"type":"unique",
 			"uvr": bMMRenderer
@@ -400,7 +400,7 @@ layerList.push(
 
 var bBusSymbol = {"type": "simple",
 				"symbol": {"type": "esriPMS",
-				"url":"_assets/images/busBjorklund.png", 
+				"url":"assets/images/busBjorklund.png", 
 				"height": 10, 
 				"width": 10
 }};
@@ -409,7 +409,7 @@ layerList.push(
 	{"id":"Bjorklund-Buses",
 		"minScale": 1155581,
 		"toggleOnList": ["bjorklund","bus"],
-		"layerInfo":{"type":"csv","file":"_assets/data/bjorklund_bus.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/bjorklund_bus.csv"},
 		"rendererInfo":{
 			"type":"simple",
 			"svr": bBusSymbol
@@ -433,7 +433,7 @@ layerList.push(
 	{"id":"Grandmas-Course",
 		"defaultOn": true,
 		"toggleOnList": ["grandmas"],
-		"layerInfo":{"type":"json","file":"_assets/data/grandmas_Course2018.json"},
+		"layerInfo":{"type":"json","file":"assets/data/grandmas_Course2018.json"},
 		"graphicSymbol":gCourseSymbol
 	});
 	
@@ -441,7 +441,7 @@ layerList.push(
 	{"id":"Grandmas-CourseTrad",
 		"defaultOn": true,
 		"toggleOnList": ["grandmas"],
-		"layerInfo":{"type":"json","file":"_assets/data/traditionalSection_2018.json"},
+		"layerInfo":{"type":"json","file":"assets/data/traditionalSection_2018.json"},
 		"graphicSymbol":gCourseSymbolTrad
 	});	
 	
@@ -451,31 +451,31 @@ var gMMRenderer =
 	"uniqueValueInfos": [
 		{"value": "MM",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/gMM.png", 
+					"url":"assets/images/gMM.png", 
 					"height": 21, 
 					"width": 14}
 		},
 	   {"value": "MMFA",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/gMMFA.png", 
+					"url":"assets/images/gMMFA.png", 
 					"height": 35, 
 					"width": 14}
 		},
 		{"value": "MMMT",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/gMMMT.png", 
+					"url":"assets/images/gMMMT.png", 
 					"height": 35, 
 					"width": 14}
 		},
 		{"value": "MMMTo",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/gMMMTo.png", 
+					"url":"assets/images/gMMMTo.png", 
 					"height": 38, 
 					"width": 14}
 		},
 		{"value": "F",
 		 "symbol": {"type": "esriPMS",
-					"url":"_assets/images/gMM.png", 
+					"url":"assets/images/gMM.png", 
 					"height": 27, 
 					"width": 18}
 		}							
@@ -487,7 +487,7 @@ layerList.push(
 		"defaultOn": false,
 		"minScale": 288896,
 		"toggleOnList": ["grandmas"],
-		"layerInfo":{"type":"csv","file":"_assets/data/grandmas_mileMarkers_2018.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/grandmas_mileMarkers_2018.csv"},
 		"rendererInfo":{
 			"type":"unique",
 			"uvr": gMMRenderer
@@ -496,7 +496,7 @@ layerList.push(
 	});	
 var gBusSymbol = {"type": "simple",
 				"symbol": {"type": "esriPMS",
-				"url":"_assets/images/busGrandmas.png", 
+				"url":"assets/images/busGrandmas.png", 
 				"height": 10, 
 				"width": 10
 }};
@@ -505,7 +505,7 @@ layerList.push(
 	{"id":"Grandmas-Buses",
 		"minScale": 1155581,
 		"toggleOnList": ["grandmas","bus"],
-		"layerInfo":{"type":"csv","file":"_assets/data/grandmas_bus.csv"},
+		"layerInfo":{"type":"csv","file":"assets/data/grandmas_bus.csv"},
 		"rendererInfo":{
 			"type":"simple",
 			"svr": gBusSymbol
@@ -541,7 +541,7 @@ layerList.push(
 	{"id":"Parking-Skywalk",
 		"minScale": 18055,
 		"toggleOnList": ["parking"],
-		"layerInfo":{"type":"json","file":"_assets/data/parking_skywalk.json"},
+		"layerInfo":{"type":"json","file":"assets/data/parking_skywalk.json"},
 		"graphicSymbol":skywalkSymbol
 	});
 
@@ -559,7 +559,7 @@ layerList.push(
 	{"id":"Parking-Lots",
 		"minScale": 36112,
 		"toggleOnList": ["parking"],
-		"layerInfo":{"type":"json","file":"_assets/data/parking_lots.json"},
+		"layerInfo":{"type":"json","file":"assets/data/parking_lots.json"},
 		"graphicSymbol":pLotSymbol
 	});
 

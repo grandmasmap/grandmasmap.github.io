@@ -23,8 +23,8 @@ if (screen.width < 326){
 }
 var dbgMode = true;
 var esri;
-loadCss("_assets/css/gmmap.css");
-loadScript("_assets/js/var.js");
+loadCss("assets/css/gmmap.css");
+loadScript("assets/js/var.js");
 loadScript("//js.arcgis.com/3.24/"); 
 
 addNewDiv("div","ToggleBoxFull","ToggleBoxFull",'mapArea');
@@ -43,7 +43,7 @@ for (var i = 0; i < ToggleList.length; i++) {
 	addNewDiv(iToggleHTML,iToggle,"LegendToggle",'ToggleBox');
 }
 
-document.getElementById("MattLogo").src = "_assets/images/me.png";
+document.getElementById("MattLogo").src = "assets/images/me.png";
 document.getElementById("MattLogo").addEventListener('click', openMe, false);
 function openMe(){
 	if (openedMe !== true){
@@ -97,7 +97,7 @@ function waitForEsri(){
 	} else { 
 		resizeFrame();
 		if ((gMap === null) || (typeof(gMap) == "undefined")){
-			loadScript("_assets/js/makeMap.js"); 
+			loadScript("assets/js/makeMap.js"); 
 		}
 	}
   }
@@ -231,7 +231,7 @@ function postMapCreation(){
 	layerControl();
 	for (var i = 0; i < ToggleList.length; i++) {
 		var iToggle = ToggleList[i];
-		document.getElementById(iToggle).src = "_assets/images/"+iToggle+".png";
+		document.getElementById(iToggle).src = "assets/images/"+iToggle+".png";
 	}
 	gMap.setExtent(gInitExtent);
 }
