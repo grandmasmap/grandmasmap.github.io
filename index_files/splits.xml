@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.15.0.2" platform="windows">
+	<Servers>
+		<Folder expanded="1">Matt<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>carver@matthewrantala.com</User>
+				<Pass encoding="base64">Z2lzbWFwNDI=</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>carver.maprantala.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>carver.maprantala.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>grandmasdev@matthewrantala.com</User>
+				<Pass encoding="base64">bWFyYXRob24=</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>dev.grandmasmarathonmap.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>dev.grandmasmarathonmap.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>mapdev@matthewrantala.com</User>
+				<Pass encoding="base64">bWFwZGV2OQ==</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>dev.maprantala.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>dev.maprantala.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>grandmas@matthewrantala.com</User>
+				<Pass encoding="base64">bWFyYXRob24=</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>grandmasmarathonmap.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>grandmasmarathonmap.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>mappy@matthewrantala.com</User>
+				<Pass encoding="base64">ZXt6N0tAMyU9RSRTLyIr</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>maprantala.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>maprantala.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>maps@matthewrantala.com</User>
+				<Pass encoding="base64">N19vRUVhfWkhfkteXnE2clJt</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>maps.maprantala.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>maps.maprantala.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>matthgc7@matthewrantala.com</User>
+				<Pass encoding="base64">aWg/PCx1ZUckSTZ8SHNmVXFVZDIzMTMxMg==</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>MatthewRantala.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>MatthewRantala.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>notmyphone@matthewrantala.com</User>
+				<Pass encoding="base64">eGd6X0VHLTJLNzdhdyZu</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>mattsphone.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>mattsphone.com</Server>
+			<Server>
+				<Host>ftp.matthewrantala.com</Host>
+				<Port>21</Port>
+				<Protocol>6</Protocol>
+				<Type>0</Type>
+				<User>memaps@matthewrantala.com</User>
+				<Pass encoding="base64">bWVtYXBzOTkh</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>MiracleEarMaps.com</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>MiracleEarMaps.com</Server>
+		</Folder>
+		<Folder expanded="1">MGS<Server>
+				<Host>mgsftp2.mngs.umn.edu</Host>
+				<Port>21</Port>
+				<Protocol>0</Protocol>
+				<Type>0</Type>
+				<User>cwifull</User>
+				<Pass encoding="base64">TUdTOTl3ZWxseg==</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>CWIFull ftp://mgsftp2.mngs.umn.edu/</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>CWIFull ftp://mgsftp2.mngs.umn.edu/</Server>
+			<Server>
+				<Host>mgsftp2.mngs.umn.edu</Host>
+				<Port>21</Port>
+				<Protocol>0</Protocol>
+				<Type>0</Type>
+				<Logontype>0</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>ftp://mgsftp2.mngs.umn.edu/</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>ftp://mgsftp2.mngs.umn.edu/</Server>
+			<Server>
+				<Host>mgsweb2.mngs.umn.edu</Host>
+				<Port>21</Port>
+				<Protocol>0</Protocol>
+				<Type>0</Type>
+				<Logontype>0</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>ftp://mgsweb2.mngs.umn.edu/</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>ftp://mgsweb2.mngs.umn.edu/</Server>
+			<Server>
+				<Host>mgsftp2.mngs.umn.edu</Host>
+				<Port>21</Port>
+				<Protocol>0</Protocol>
+				<Type>0</Type>
+				<User>ftptemp</User>
+				<Pass encoding="base64">MHBAbDIwMTM=</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>ftptemp ftp://mgsftp2.mngs.umn.edu/</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>ftptemp ftp://mgsftp2.mngs.umn.edu/</Server>
+			<Server>
+				<Host>mgsftp2.mngs.umn.edu</Host>
+				<Port>21</Port>
+				<Protocol>0</Protocol>
+				<Type>0</Type>
+				<User>webmjrantal</User>
+				<Pass encoding="base64">bWdzd2ViOU5ldw==</Pass>
+				<Logontype>1</Logontype>
+				<TimezoneOffset>0</TimezoneOffset>
+				<PasvMode>MODE_DEFAULT</PasvMode>
+				<MaximumMultipleConnections>0</MaximumMultipleConnections>
+				<EncodingType>Auto</EncodingType>
+				<BypassProxy>0</BypassProxy>
+				<Name>webmjrantal ftp://mgsftp2.mngs.umn.edu/</Name>
+				<Comments />
+				<LocalDir />
+				<RemoteDir />
+				<SyncBrowsing>0</SyncBrowsing>
+				<DirectoryComparison>0</DirectoryComparison>webmjrantal ftp://mgsftp2.mngs.umn.edu/</Server>
+		</Folder>
+	</Servers>
+</FileZilla3>

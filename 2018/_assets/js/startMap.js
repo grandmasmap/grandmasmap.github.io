@@ -375,6 +375,6 @@ var sc_project=10465004;
 var sc_invisible=1; 
 var sc_security="123e67fa";
 function statCounter(){
-	document.write("<script type='text/javascript' src='https://www.statcounter.com/counter/counter.js'></script>");
+	document.write("<script type='text/javascript' src='http://www.statcounter.com/counter/counter.js'></script>");
 }
 statCounter();

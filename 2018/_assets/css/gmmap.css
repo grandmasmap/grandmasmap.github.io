@@ -1,0 +1,108 @@
+html, body, #map {
+  padding:0;
+  margin:0;
+  height:100%;
+}
+.mapArea {
+	height:100%;
+}
+
+#ToggleBoxFull{
+	position: absolute;  
+	left: 0px;  
+	top: 0px;
+	right: 0px;
+	z-index: 99; 
+	height:42px;
+	background-color: #E5E4E2	
+}
+#ToggleBox{ 
+	position: absolute;  
+	left: 0px;  
+	top: 5px;
+	z-index: 99; 
+	height:32px;
+}
+#ToggleBox_old{ 
+	position: absolute;  
+	left: 0px;  
+	top: 10px;
+	z-index: 99; 
+	height:32px;
+	border: 1px solid rgba(255,255,255,0.60); 
+	border-radius: 5px; 
+	background-color: rgba(255,255,255,0.40);
+}
+#MattLogo{ 
+	position: absolute;  
+	left: 10px;  
+	bottom: 10px;
+	z-index: 99; 
+	height:32px;
+}
+
+#map {
+	position: absolute;
+	top: 37px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding:0;
+	margin:0;
+}
+#BasemapToggle {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 50;
+}
+
+.basemapTitle {
+	display: none;
+}
+
+.LegendToggle.isOff {
+	opacity: 0.6;
+}
+
+.LegendToggle.isOn{
+	opacity: 1.0;
+}
+
+.LegendToggle {
+	width: 32px;
+	height: 32px;
+	position: relative; 
+	z-index: 99;
+	padding: 0px 2px;
+	top: -5px;
+}
+
+.isHidden{
+	display: none;
+}
+.notHidden{
+	display:block;
+}
+
+#Coordinates{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	height: 32px;
+	z-index: 98;
+	
+}
+
+#MyIcon{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 32px;
+	height: 32px;
+	z-index: 98;
+	
+}
+#MyIcon:before{
+	content:url(_assets/images/me.png);
+}
